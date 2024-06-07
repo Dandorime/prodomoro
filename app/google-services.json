@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "898680795209",
+    "project_id": "prodomoro-todo",
+    "storage_bucket": "prodomoro-todo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:898680795209:android:658ded34140d483f358f98",
+        "android_client_info": {
+          "package_name": "com.example.prodomoro_todo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJbIqpHfiispihkxYMjW3GdFiVPVjc3BA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:898680795209:android:5b5202c7653fb9bf358f98",
+        "android_client_info": {
+          "package_name": "dev.jord.todo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJbIqpHfiispihkxYMjW3GdFiVPVjc3BA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

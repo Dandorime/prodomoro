@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/auth_navigation"
+    app:startDestination="@id/WelcomeFragment">
+
+    <fragment
+        android:id="@+id/WelcomeFragment"
+        android:name="com.example.prodomoro_todo.ui.auth.WelcomeFragment"
+        android:label="@string/welcome_label"
+        tools:layout="@layout/fragment_welcome">
+
+        <action
+            android:id="@+id/action_Welcome_to_Login"
+            app:destination="@id/LoginFragment" />
+
+        <action
+            android:id="@+id/action_Welcome_to_Register"
+            app:destination="@id/RegisterFragment" />
+
+        <action
+            android:id="@+id/action_Welcome_to_Home"
+            app:destination="@+id/home_navigation" />
+    </fragment>
+    <fragment
+        android:id="@+id/LoginFragment"
+        android:name="com.example.prodomoro_todo.ui.auth.LoginFragment"
+        android:label="@string/login_label"
+        tools:layout="@layout/fragment_login">
+
+        <action
+            android:id="@+id/action_Login_to_Welcome"
+            app:destination="@id/WelcomeFragment" />
+        <action
+            android:id="@+id/action_Login_to_Home"
+            app:destination="@+id/home_navigation" />
+        <action
+            android:id="@+id/action_Login_to_ForgotPassword"
+            app:destination="@+id/ForgotPassword" />
+    </fragment>
+    <fragment
+        android:id="@+id/ForgotPassword"
+        android:name="com.example.prodomoro_todo.ui.auth.ForgotPasswordFragment"
+        android:label="@string/forgot_password"
+        tools:layout="@layout/fragment_forgot_password">
+
+        <action
+            android:id="@+id/action_ForgotPassword_to_Login"
+            app:destination="@+id/LoginFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/RegisterFragment"
+        android:name="com.example.prodomoro_todo.ui.auth.RegisterFragment"
+        android:label="@string/register_label"
+        tools:layout="@layout/fragment_register">
+
+        <action
+            android:id="@+id/action_Register_to_Welcome"
+            app:destination="@id/WelcomeFragment" />
+        <action
+            android:id="@+id/action_Register_to_Home"
+            app:destination="@+id/home_navigation" />
+    </fragment>
+</navigation>

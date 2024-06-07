@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Prodomoro</string>
+    <string name="action_settings">Настройки</string>
+    <string name="name">Имя</string>
+    <string name="forgot_password">Забыли пароль?</string>
+    <string name="reset_password">Сбросить пароль</string>
+    <string name="enter_name">Пожалуйста, введите Имя</string>
+    <string name="enter_email">Пожалуйста, введите Email</string>
+    <string name="enter_password">Пожалуйста, введите Пароль</string>
+    <string name="invalid_login">Неверный логин, попробуйте еще раз</string>
+    <string name="invalid_email">Не корректрая Почта, попробуйте еще раз</string>
+    <string name="invalid_password">Пароль не верный, попробуйте еще раз</string>
+    <string name="welcome_label">Добро пожаловать в Prodomoro</string>
+    <string name="login_label">Войти в Prodomoro</string>
+    <string name="next">Далее</string>
+    <string name="previous">Предыдущее</string>
+    <string name="new_task">Новая задача</string>
+    <string name="hello_blank_fragment">Привет</string>
+    <string name="login_to_continue">Ввойдите чтобы продолжить</string>
+</resources>
